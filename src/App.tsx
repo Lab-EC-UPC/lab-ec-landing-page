@@ -3,6 +3,7 @@ import {RevealVertical} from "./components/animations/RevealVertical.tsx";
 import LOGO from "./assets/logo.png";
 import CIBERDELINCUENCIA from "./assets/ciberdelincuencia.png";
 import DESATENDIDOS from "./assets/desatendidos.png";
+import {FaAngleDoubleDown} from "react-icons/fa";
 
 function App() {
   return (
@@ -35,9 +36,10 @@ function App() {
           </div>
         </div>
 
-        <div className="mx-auto container px-4 md:px-0 mb-8 md:mb-12 w-full flex flex-col items-center">
-          <div className="flex gap-4 w-fit px-48 py-[16px] text-black border-t-2 border-b-2 border-primary">
+        <div className="mx-auto container px-4 md:px-0 mb-8 md:mb-12 w-full flex flex-col items-center py-8">
+          <div className="flex gap-4 w-fit px-48 py-[16px] text-black border-t-2 border-b-2 border-primary items-center">
             <h1 className="text-lg font-bold">Nuestros proyectos</h1>
+            <FaAngleDoubleDown size={16} className="text-primary animate-bounce" />
           </div>
           <div className="grid md:grid-cols-2 gap-4 mt-8">
             <RevealVertical>
