@@ -64,7 +64,7 @@ function App() {
                 <img
                   src={CIBERDELINCUENCIA}
                   alt="CiberDelincuencia"
-                  className=""
+                  className="mb-4 hover:scale-95 duration-200"
                 />
                 <div className="flex flex-col items-center justify-center bg-black text-white p-6">
                   <h1 className="text-2xl font-bold">
