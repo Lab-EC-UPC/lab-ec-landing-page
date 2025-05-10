@@ -44,11 +44,13 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 mt-8">
             <RevealVertical>
               <a href="https://elcomercio.pe/ecdata/crisis-de-salud-mental-ninos-adolescentes-desatendidos-y-la-falta-de-psicologos-en-escuelas-publicas-del-peru-chatbot-sammy-consultas-laboratorio-periodismo-upc-especdis-noticia/" target="_blank">
-                <img
-                  src={DESATENDIDOS}
-                  alt="Desatendidos"
-                  className="hover:scale-95 duration-200 h-full w-auto object-cover"
-                />
+                <div className="flex justify-center items-center h-64 md:h-96 w-auto">
+                  <img
+                    src={DESATENDIDOS}
+                    alt="Desatendidos"
+                    className="hover:scale-95 duration-200 h-full w-auto object-cover"
+                  />
+                </div>
                 <div className="flex flex-col items-center justify-center bg-black text-white p-6">
                   <h1 className="text-2xl font-bold">
                     Desatendidos
@@ -61,11 +63,13 @@ function App() {
             </RevealVertical>
             <RevealVertical>
               <a href="https://elcomercio.pe/ecdata/especial-ciberdelincuencia-aprende-a-identificar-las-estafas-digitales-antes-de-que-sea-demasiado-tarde-ciberseguridad-ciberestafas-herramienta-ecdata-upc-lab-noticia/#google_vignette" target="_blank">
-                <img
-                  src={CIBERDELINCUENCIA}
-                  alt="CiberDelincuencia"
-                  className="hover:scale-95 duration-200 h-full w-auto object-cover"
-                />
+                <div className="flex justify-center items-center h-64 md:h-96 w-auto">
+                  <img
+                    src={CIBERDELINCUENCIA}
+                    alt="CiberDelincuencia"
+                    className="hover:scale-95 duration-200 h-full w-auto object-cover"
+                  />
+                </div>
                 <div className="flex flex-col items-center justify-center bg-black text-white p-6">
                   <h1 className="text-2xl font-bold">
                     Ciberdelincuencia
