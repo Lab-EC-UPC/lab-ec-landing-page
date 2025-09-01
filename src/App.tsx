@@ -4,6 +4,7 @@ import CIBERDELINCUENCIA from "./assets/ciberdelincuencia.png";
 import DESATENDIDOS from "./assets/desatendidos.png";
 import {FaAngleDoubleDown} from "react-icons/fa";
 import {RevealVertical} from "./components/animations/RevealVertical.tsx";
+import { FaTiktok, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -29,8 +30,34 @@ function App() {
                 </span>
                 {" "}de ECData y la Universidad Peruana de Ciencias Aplicadas
               </h1>
-              <p className="text-placeholder text-lg md:text-2xl">
-                Somos un espacio dedicado a potenciar la creatividad y la innovación en el periodismo, explorando el poder de los datos, las nuevas tecnologías y las historias digitales.
+
+              <div className="grid grid-cols-2 gap-4 justify-center items-center mt-4">
+                <a
+                  href="https://www.tiktok.com/@ec.data.upc"
+                  target="_blank"
+                  className="size-12 md:size-16 hover:cursor-pointer hover:scale-105 duration-200  bg-primary rounded-full flex justify-center items-center"
+                >
+                  <FaTiktok className="text-lg md:text-3xl" />
+                </a>
+                <a
+                  href="https://www.instagram.com/lab_elcomercio_upc"
+                  target="_blank"
+                  className="size-12 md:size-16 hover:cursor-pointer hover:scale-105 duration-200  bg-primary rounded-full flex justify-center items-center"
+                >
+                  <FaInstagram className="text-lg md:text-3xl" />
+                </a>
+              </div>
+
+              <p className="text-gray-600 text-lg md:text-xl text-justify mt-4">
+                El Laboratorio de Periodismo de El Comercio es un espacio dedicado a potenciar la creatividad y
+                la innovación en el periodismo, explorando el poder de los datos, las nuevas tecnologías y las
+                narrativas digitales. Nacimos con la visión de ser el primer conjunto de laboratorios de innovación
+                periodística con estudiantes universitarios en el Perú, forjando una nueva generación de
+                profesionales capaces de contar historias complejas de manera rigurosa, profunda y creativa.
+                <br/><br/>
+                El resultado de nuestra labor se materializa en especiales multimedia e investigaciones de alto
+                impacto que han abordado temas críticos como la crisis de salud mental en la educación
+                escolar, la ciberdelincuencia e irregularidades en el proceso de emisión de licencias de conducir.
               </p>
             </div>
           </div>
@@ -103,10 +130,6 @@ function App() {
               </div>
               <div className="space-y-2 text-center md:text-end">
                 <h1 className="font-bold text-lg">Lab ECData - UPC © 2025</h1>
-                <p>
-                  Developed by{" "}
-                  <a className="hover:text-primary duration-200" href="https://lilianafu.com/" target="_blank">Liliana Fu</a>
-                </p>
               </div>
             </div>
           </div>
